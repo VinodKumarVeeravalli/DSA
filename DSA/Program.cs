@@ -16,14 +16,14 @@
 
             //arrObj.UsingInBuilt(arr);
 
-            Arrays.Array arr = new Arrays.Array(4);
-            arr.Insert(10);
-            arr.Insert(20);
-            arr.Insert(60);
-            arr.Insert(90);
-            arr.InsertAt(1, 15);
-            arr.Print();
-            Console.WriteLine(arr.Max());
+            //Arrays.Array arr = new Arrays.Array(4);
+            //arr.Insert(10);
+            //arr.Insert(20);
+            //arr.Insert(60);
+            //arr.Insert(90);
+            //arr.InsertAt(1, 15);
+            //arr.Print();
+            //Console.WriteLine(arr.Max());
         }
     }
 

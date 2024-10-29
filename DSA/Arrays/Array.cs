@@ -10,6 +10,7 @@
             items = new int[length];
         }
 
+        //O(1) & O(1)
         public void Insert(int value)
         {
             if (items.Length == size)
@@ -27,6 +28,7 @@
             size++;
         }
 
+        // O(N) & O(1)
         public void InsertAt(int index, int value)
         {
             if (items.Length == size)
@@ -51,6 +53,7 @@
             size++;
         }
 
+        //O(N) & O(1)
         public void RemoveAt(int index)
         {
             if (index < 0 || index >= size)
@@ -88,6 +91,7 @@
             }
         }
 
+        //O(N) & O(1)
         public int IndexOf(int value)
         {
             for (int i = 0; i < size; i++)
